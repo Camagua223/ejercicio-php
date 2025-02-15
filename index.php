@@ -14,7 +14,7 @@ const API_URL = 'https://whenisthenextmcufilm.com/api';
  
 ?> 
 <head>
-    <title>La prixima pelicula de marvel</title>
+    <title>La proxima pelicula de marvel</title>
     <meta charset="UTF-8" /> 
 <!-- Centered viewport -->
     <link
@@ -33,6 +33,7 @@ const API_URL = 'https://whenisthenextmcufilm.com/api';
     <h3><?= $data["title"];?> se estrena en <?= $data["days_until"]; ?> dias</h3>
     <p> Fecha de estreno <?=$data["release_date"];?></p>
     <p> La siguiente es <?=$data["following_production"]["title"];?></p>
+    <img src="https://i.pinimg.com/736x/43/19/2f/43192faa3dd4a633e4192dac7071fbe8.jpg" width="200" alt="momo">
 </hgroup>
 
 </main>
